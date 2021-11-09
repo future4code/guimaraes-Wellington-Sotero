@@ -1,0 +1,8 @@
+1-Curry massaman, Tailândia;
+2-Pizza napolitana, Itália;
+3-Chocolate, México;
+4-Sushi, Japão;
+5-Pato-à-pequim, China;
+6-Hambúrguer, Alemanha;
+7-Penang assam laksa, Malásia;
+8-Tom yum goong, Tailândia;
