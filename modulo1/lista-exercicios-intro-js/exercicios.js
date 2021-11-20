@@ -125,6 +125,19 @@ function retornaPrimeiroElemento(array) {
 function retornaUltimoElemento(array) {
   // implemente sua lógica aqui
 
+
+  
+
+
+  const ultimoElemento = array[array.length -1]
+
+
+  return ultimoElemento
+
+  
+
+  
+
 }
 
 // EXERCÍCIO 11
@@ -141,28 +154,20 @@ function trocaPrimeiroEUltimo(array, array0) {
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
   // implemente sua lógica aqui
 
+  return string1.toUpperCase() === string2.toUpperCase()
+
+  const result = checaIgualdadeDesconsiderandoCase
+
+
+
 }
 
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
   // implemente sua lógica aqui
- const anoAtual = Number(prompt("2020"))
- const anoNascimento = Number(prompt("2000"))
- const emissaoCarteira = Number(Prompt("2015"))
-
- let idade = anoAtual - anoNascimento
- let dataCarteira = anoAtual - emissaoCarteira
-
- if(idade <= 20 && dataCarteira >=5 ){
-    console.log(true)
- }else if (idade > 50 && dataCarteira >=15 ){
-  console.log(true)
- }else if(idade >20 && idade < 50 && dataCarteira >=10){
-   console.log(true)
- }
-  else {
-    console.log(false)
-  }
+ 
+  
+}
 
 // EXERCÍCIO 14
 function checaAnoBissexto(ano) {
