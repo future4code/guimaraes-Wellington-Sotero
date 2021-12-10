@@ -219,31 +219,19 @@ function retornaArrayOrdenadoAlfabeticamente(consultas) {
 function retornaArrayOrdenadoPorData(consultas) {
 
    
-    const array = [
-        {
-          nome: "João",
-        dataDaConsulta: new Date('Oct 01 2021')
-      },
-      {
-          nome: "Pedro",
-        dataDaConsulta: new Date('Jul 02 2021')
-      },
-      {
-          nome: "Paula",
-        dataDaConsulta: new Date('Nov 03 2021')
-      },
-      {
-          nome: "Márcia",
-        dataDaConsulta: new Date('May 04 2021')
-      }
-    ];
+    for (let consulta of consultas)
+
+        consulta.dataDaConsulta = consulta.dataDaConsulta.split('/').reverse().toString().replaceAll(',', '');
     
-    array.sort(function(a,b) { 
-        return a.dataDaConsulta.getTime() - b.dataDaConsulta.getTime() 
-    });
+    consultas.sort(function (a, b) {
+        return (a.dataDaConsulta > b.dataDaConsulta) ? 1 : ((b.dataDaConsulta > a.dataDaConsulta) ? -1 : 0);
+    })
+
     
-    console.log(array);
 
+    for (let indice of consultas)
+        indice.dataDaConsulta = indice.dataDaConsulta.replace(/^(\d{4})(\d{2})(\d{2}).*/, '$3/$2/$1');
+   
 
-
-}
+    return consultas
+} 
