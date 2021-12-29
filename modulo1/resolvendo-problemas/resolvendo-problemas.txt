@@ -1,0 +1,45 @@
+Primeiro passo é ler o enunciado e entender o que está sendo pedido!
+Devemos ler o enunciado mais de uma vez com atenção e entender o que está sendo pedido,
+observar as informações que podem contribuir para o projeto.
+
+
+
+Segundo passo devemos retirar informações que são passadas no enunciado!
+observar se tem palavras chaves tipo no plural que já identifica que teremos um código array
+numeros vamos utilizar o Number
+pergunta que devera ser feita já identifico que vou usar o prompt
+após checar essas informações, devo criar uma lista com todos os possíveis códigos,
+que vou ultilizar durante o projeto.
+
+
+
+Terceiro, vamos pensar em exemplos do que podemos utilizar!
+filtrar os exemplos e descartar coisas que não serão utilizadas durante a criação do código
+pensar nas entradas e nas saídas.
+
+
+
+
+Quarto Devemos montar um passo a passo do que deveremos fazer antes do código!
+Pensar no problema e pensar nos possíveis códigos que podem ser ultilizados.
+criar exemploes de códigos pra ser utilizados.
+Montar um passo a passo do que será feito.(pode ser em arquivo txt ou papel e caneta).
+
+
+
+
+Quinto, vamos iniciar com a criação do código pra começar a ter ideias!
+Começar a criação do código (mesmo que não seja o código real)
+testar todas as opçoes levantadas anteriormente e testar uma a uma pra ver qual que se encaixa melhor.
+
+
+
+
+Sexto, começar a testar o código e depois começar a deixar o código mais legível!
+Testar o código e procurar possíveis erros e corrigir.
+
+
+Sétimo, conferência.
+conferir se ultilizamos o código da melhor forma.
+procurar deixar o código limpo, usando menos coisas possíveis.
+Melhorar a funcionalidade e visualização.
