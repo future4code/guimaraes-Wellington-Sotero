@@ -37,10 +37,12 @@ header {
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  border: 1px black;
 }
 header > h1 {
   margin:  13px;
   padding: 10px;
+  border: 1px solid black;
 }
 header > p {
   margin: 10px;
