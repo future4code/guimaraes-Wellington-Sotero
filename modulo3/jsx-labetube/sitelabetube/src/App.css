@@ -1,0 +1,116 @@
+body {
+  
+  padding: 0;
+  margin: 0;
+}
+
+
+.tela-inteira {
+  height: 116vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10 50px;
+  height: 10%;
+}
+
+main {
+  min-height: 80%;
+  display: flex;
+}
+
+.menu-vertical {
+  flex-basis: 200px;
+  border-right-style: solid;
+  border-right-width: thin;
+  background-image: radial-gradient(circle at 120.71% 50%, #fceef4 0, #fdeef3 3.33%, #feedf1 6.67%, #feedef 10%, #ffeeee 13.33%, #ffeeec 16.67%, #feeeeb 20%, #feeeea 23.33%, #fdefe8 26.67%, #fcefe7 30%, #fbefe7 33.33%, #faf0e6 36.67%, #f8f0e6 40%, #f7f1e6 43.33%, #f5f1e6 46.67%, #f3f2e6 50%, #f1f3e7 53.33%, #eff3e7 56.67%, #edf3e8 60%, #ecf4e9 63.33%, #eaf4eb 66.67%, #e8f5ec 70%, #e7f5ee 73.33%, #e6f5ef 76.67%, #e5f5f1 80%, #e4f5f2 83.33%, #e3f5f4 86.67%, #e3f5f6 90%, #e3f5f7 93.33%, #e4f5f9 96.67%, #e4f4fa 100%);
+}
+
+.botoes-meunu-vertical {
+  list-style-type: none;
+}
+
+.painel-de-videos {
+  padding-left: 20px;
+  padding-top: 20px;
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 24.8% 0.2%);
+  grid-template-rows: repeat(4, 270px 20px);
+}
+
+.media1 {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.media2 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+.media3 {
+  grid-column-start: 5;
+  grid-row-start: 1;
+}
+
+.media4 {
+  grid-column-start: 7;
+  grid-row-start: 1;
+}
+
+.media5 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.media6 {
+  grid-column-start: 3;
+  grid-row-start: 3;
+}
+
+.media7 {
+  grid-column-start: 5;
+  grid-row-start: 3;
+}
+
+.media8 {
+  grid-column-start: 7;
+  grid-row-start: 3;
+}
+
+
+.box-pagina-principal {
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  grid-template-columns: 1fr;
+  border-style: solid;
+  border-width: thin; 
+  align-items: start;
+  justify-items: stretch;
+}
+
+
+.box-pagina-principal > img {
+  width: 100%;
+  height: 200px;
+}
+
+h4 {
+  margin-left: 20px;
+}
+
+footer {
+  height: 10%;
+  background-color: rgb(247, 7, 7);
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
