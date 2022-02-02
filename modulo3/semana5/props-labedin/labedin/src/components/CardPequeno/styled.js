@@ -15,7 +15,7 @@ export const CardPequenoContainer = styled.div`
         width: 50px;
         justify-content: left;
         justify-items: left;
-        align-items: left;
+        
     }
 
 
