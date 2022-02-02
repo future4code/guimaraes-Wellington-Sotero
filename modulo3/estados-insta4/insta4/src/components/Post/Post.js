@@ -58,7 +58,7 @@ class Post extends React.Component {
       })
     } else{
       this.setState({
-        curtido: false,
+         curtido: false,
         numeroCurtidas: this.state.numeroCurtidas -1  
       })
     
@@ -119,6 +119,8 @@ class Post extends React.Component {
       {componenteComentario}
     </PostContainer>
   }
+
 }
+
 
 export default Post
