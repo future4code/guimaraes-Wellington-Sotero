@@ -14,6 +14,7 @@ const MainContainer = styled.div`
 `
 
 class App extends React.Component {
+  
   render() {
     return (
       <MainContainer>
@@ -24,15 +25,15 @@ class App extends React.Component {
         />
 
         <Post
-          nomeUsuario={'Ana Lara'}
-          fotoUsuario={analara}
-          fotoPost={bale}
-        />
-
-        <Post
           nomeUsuario={'Pedro Henrique'}
           fotoUsuario={pedrohenrique}
           fotoPost={futebol}
+        />
+
+<Post
+          nomeUsuario={'Ana Lara'}
+          fotoUsuario={analara}
+          fotoPost={bale}
         />
       </MainContainer>
     );
