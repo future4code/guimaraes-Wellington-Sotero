@@ -5,8 +5,10 @@ const InputBox = styled.input `
 width: 30vw;
 margin: 0 auto;
 display: flex;
+border: groove 5px;
 margin-bottom: 5vh;
 `
+
 const PerguntaH1 = styled.h1 `
 font-weight: bold;
 text-align: center;
@@ -34,23 +36,22 @@ export default class Pagina3 extends React.Component {
     }
 
     render() {
-        return < >
-            <
-            PerguntaH1 > ETAPA 3 - INFORMAÇÕES GERAIS DE ENSINO < /PerguntaH1>; <
-            PerguntaH2 > 7. Por que você não terminou um curso de graduação ? < /PerguntaH2> <
+        return <>
+            
+            <PerguntaH1> ETAPA 3 - INFORMAÇÕES DE ENSINO </PerguntaH1>;
+            <PerguntaH2> 7. Por que você não terminou um curso de graduação ? </PerguntaH2>;
             InputBox
-        placeholder = { '' }
-        value = { this.state.inputPergunta7 }
-        onChange = { this.onChangePergunta7 }
-        /> <
-        PerguntaH2 > 8. Você fez algum curso complementar ? < /PerguntaH2> <
+        placeholder = { '' };
+        value = {this.state.inputPergunta7};
+        OnChange = {this.OnChangePergunta7};
+        
+        <PerguntaH2> 8. Você fez algum curso complementar ? </PerguntaH2>;
             InputBox
-        placeholder = { '' }
-        value = { this.state.inputPergunta8 }
-        onChange = { this.onChangePergunta8 }
-        />
+        placeholder = { '' };
+        value = { this.state.inputPergunta8 };
+        OnChange = { this.OnChangePergunta8 };
+        
 
-        <
-        />
+        
     }
 }

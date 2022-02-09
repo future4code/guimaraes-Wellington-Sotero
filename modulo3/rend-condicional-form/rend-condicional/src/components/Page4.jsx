@@ -5,8 +5,10 @@ const InputBox = styled.input `
 width: 30vw;
 margin: 0 auto;
 display: flex;
+border: groove 5px;
 margin-bottom: 5vh;
 `
+
 const PerguntaH1 = styled.h1 `
 font-weight: bold;
 text-align: center;
@@ -20,10 +22,10 @@ text-align: center;
 export default class PaginaFinal extends React.Component {
 
     render() {
-        return < >
-            <
-            PerguntaH1 > O FORMULÁRIO ACABOU! < /PerguntaH1>; <
-            PerguntaH2 > Muito obrigado pela participação! < br / > Entraremos em contato em breve! < /PerguntaH2> <
-            />
+        return 
+            
+            <PerguntaH1> O FORMULÁRIO ACABOU! </PerguntaH1>;
+            <PerguntaH2> Muito obrigado pela participação! < br / > Contataremos assim que possível! </PerguntaH2>;
+            
     }
 }

@@ -5,8 +5,10 @@ const InputBox = styled.input `
 width: 30vw;
 margin: 0 auto;
 display: flex;
+border: groove 5px;
 margin-bottom: 5vh;
 `
+
 const PerguntaH1 = styled.h1 `
 font-weight: bold;
 text-align: center;
@@ -34,23 +36,20 @@ export default class Pagina2 extends React.Component {
     }
 
     render() {
-        return < >
-            <
-            PerguntaH1 > ETAPA 2 - INFORMAÇÕES DO ENSINO SUPERIOR < /PerguntaH1>; <
-            PerguntaH2 > 5. Qual curso ? < /PerguntaH2> <
+        return <>
+            
+            <PerguntaH1> ETAPA 2 - ENSINO SUPERIOR </PerguntaH1>; 
+            <PerguntaH2> 5. Qual curso ? </PerguntaH2>;
             InputBox
-        placeholder = { '' }
-        value = { this.state.inputPergunta5 }
-        onChange = { this.onChangePergunta5 }
-        /> <
-        PerguntaH2 > 6. Qual é a sua unidade do curso ? < /PerguntaH2> <
+        placeholder = { '' };
+        value = { this.state.inputPergunta5 };
+        onChange = { this.onChangePergunta5 };
+        
+        <PerguntaH2> 6. Qual unidade do curso ? </PerguntaH2>;
                 InputBox
-            placeholder = { '' }
-        value = { this.state.inputPergunta6 }
-        onChange = { this.onChangePergunta6 }
-        />
-
-        <
-        />
+            placeholder = { '' };
+        value = {this.state.inputPergunta6};
+        onChange = {this.onChangePergunta6};
+        
     }
 }
