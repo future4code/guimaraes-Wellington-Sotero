@@ -48,7 +48,7 @@ export default class Home extends React.Component {
 
 
     render() 
-        return <>
+        return 
             
             <PerguntaH2> ETAPA 1 - DADOS GERAIS </PerguntaH2>;
             <PerguntaH2>  1. Qual o seu nome ? </PerguntaH2>;
@@ -76,6 +76,3 @@ export default class Home extends React.Component {
         OnChange = {this.OnChangePergunta4};
 
         
-        
-        
-    

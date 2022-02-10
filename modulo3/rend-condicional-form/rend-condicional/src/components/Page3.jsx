@@ -36,7 +36,7 @@ export default class Pagina3 extends React.Component {
     }
 
     render() {
-        return <>
+        return 
             
             <PerguntaH1> ETAPA 3 - INFORMAÇÕES DE ENSINO </PerguntaH1>;
             <PerguntaH2> 7. Por que você não terminou um curso de graduação ? </PerguntaH2>;

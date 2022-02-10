@@ -36,7 +36,7 @@ export default class Pagina2 extends React.Component {
     }
 
     render() {
-        return <>
+        return 
             
             <PerguntaH1> ETAPA 2 - ENSINO SUPERIOR </PerguntaH1>; 
             <PerguntaH2> 5. Qual curso ? </PerguntaH2>;
@@ -51,5 +51,5 @@ export default class Pagina2 extends React.Component {
         value = {this.state.inputPergunta6};
         onChange = {this.onChangePergunta6};
         
-    }
+    };
 }
