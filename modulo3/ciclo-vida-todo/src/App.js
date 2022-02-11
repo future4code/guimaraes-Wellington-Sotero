@@ -52,10 +52,28 @@ class App extends React.Component {
   }
 
   criaTarefa = () => {
+    const novoPost = {
+    id: Date.now(),
+    texto: this.state.textoNovoPost,
+    curtido: false
+    }
+
+    const novaListaDePosts = [novoPost, ... this.state.listaDePosts]
+
+    this.state({alistaDeposts: novaListaDePosts})
 
   }
 
   selectTarefa = (id) => {
+    const novaListaDePosts = this.state.listaDePosts.filter((post) => {
+      
+        return post !== post.id
+    }
+    )
+
+    this.setState({listaDePosts: novaListaDePosts})
+
+    
 
   }
 
