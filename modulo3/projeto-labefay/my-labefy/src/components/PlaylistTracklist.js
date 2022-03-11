@@ -37,6 +37,7 @@ const BotaoDiv = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    
 `
 
 const Botao = styled.button`
@@ -44,6 +45,7 @@ background: rgba( 255, 255, 255, 0.1);
 backdrop-filter: blur(10px);
 -webkit-backdrop-filter: blur(10px);
     border-groove: 8px;
+    
 `
 
 
