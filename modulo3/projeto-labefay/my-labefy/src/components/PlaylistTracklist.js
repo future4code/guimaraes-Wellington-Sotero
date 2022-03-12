@@ -23,6 +23,7 @@ backdrop-filter: blur(10px);
     margin-left: 30px;
     justify-content: center;
     padding-bottom: 10px;
+    font-color: white;
 
 `
 const BoxAddTrack = styled.div`

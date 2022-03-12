@@ -12,17 +12,15 @@ const TituloLabefy = styled.h1`
 
     
 `
-const TituloWell = styled.h1`
-    font-color: white;
 
-
-
-`
 const BoxHeader = styled.div`
     display: flex;
     justify-content: space-between;
     justify-content: center;
     width: 800px;
+    p{
+        color: pink;
+     }
     
 `
 
