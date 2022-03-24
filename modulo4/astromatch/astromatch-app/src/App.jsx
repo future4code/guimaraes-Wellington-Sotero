@@ -6,7 +6,7 @@ import Detalhes from './components/Detalhes';
 import axios from 'axios';
 /* import Fundo from './img/fundolove.jpg'; */
 import Badge from '@material-ui/core/Badge';
-import {DivApp, DivInterna, Header, DivEspaco, Logo, IconeCurtidas, IconeVoltar} from './AppStyled.js'
+import {DivApp, DivInterna, Header, DivEspaco, Logo, IconeCurtidas, IconeVoltar} from './AppStyled.jsx'
 
 
 const App = () => {

@@ -52,11 +52,3 @@ export const Descricao = styled.p`
     margin: 8px 0;
     font-size: 1.2em;
 `
-
-/* export const Fundo = styled.body`
-width: 100%;
-height: 100%;
-background-image: url($ = fundolove.jpg);
-
-
-` */

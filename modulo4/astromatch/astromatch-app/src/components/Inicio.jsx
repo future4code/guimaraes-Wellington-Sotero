@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios'
 import CloseIcon from '@material-ui/icons/Close';
 import FavoriteIcon from '@material-ui/icons/Favorite';
-import {DivInicio, DivPerfil, Blur, FotoPerfil, DivDados, NomePerfil, IdadePerfil, Descricao, DivEscolhas, Botao, Coracao, keyframesCoracao, AnimacaoCoracao} from "./InicioStyled.js"
+import {DivInicio, DivPerfil, Blur, FotoPerfil, DivDados, NomePerfil, IdadePerfil, Descricao, DivEscolhas, Botao, Coracao, keyframesCoracao, AnimacaoCoracao} from "./InicioStyled.jsx"
 
 const Inicio = (props) => {
 
