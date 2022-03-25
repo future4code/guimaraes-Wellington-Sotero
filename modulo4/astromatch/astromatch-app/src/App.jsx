@@ -116,7 +116,7 @@ const App = () => {
 
   return (
     <DivApp>
-      <button onClick={limparSwipes}>Limpar swipes e matches</button>
+      <button onClick={limparSwipes}>Limpar curtidas</button>
       {secaoCarregada}
     </DivApp>
   );
