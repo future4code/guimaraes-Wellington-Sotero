@@ -1,38 +1,4 @@
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-
-
-.center{
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 2%;
-  display: flex;
-}
-
-.main{
-  padding: 40px 0;
-  background-color: blueviolet;
-  /* background-image: url(${Fundo}); */
-}
-
-.menu{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.menu h3{
-  color: white;
-}
-
-.menu a{
-  color: white;
-  text-decoration: none;
-  border: 1px solid white;
-  padding: 3px 8px;
-  border-radius: 5px;
+.app {
+    background-color: black;
+    color: white;
 }
