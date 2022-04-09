@@ -62,11 +62,11 @@ const PaginaInscricaoViagem = () => {
         axios
         .post(`https://us-central1-labenu-apis.cloudfunctions.net/labeX/well-sotero-guimaraes/trips/${form.tripId}/apply`, body)
         .then((response) => {
-            alert('Sua inscrição foi realizada com sucesso!')
+            alert('Inscrição concluída com sucesso!')
         })
         .catch((err) => {
             console.log(err.message)
-            alert('Não foi possível fazer sua inscrição. Por favor, tente novamente')
+            alert('Inscrição não concluída! Por favor, tente novamente')
         })   
     };
 
