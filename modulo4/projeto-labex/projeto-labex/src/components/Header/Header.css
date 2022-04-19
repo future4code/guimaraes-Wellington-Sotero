@@ -1,0 +1,15 @@
+.logo {
+    width: 35%;
+    height: auto;
+    margin-top: 6px;
+}
+
+.barra {
+    background-color: #feff00, linear-gradient(135deg, #feff00 0%, #0e080e 17%, #080702 39%, #0a0404 60%, #110101 80%, #ffffff 100%);
+    ;
+}
+
+#barra {
+    display: flex;
+    flex-direction: row;
+}
