@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
-import { BASE_URL } from '../../constants/urls';
-import { CharacterCard } from './styled';
+import { BASE_URL } from '../constants/urls';
+import { CharacterCard } from './style';
 
 
 const CharacterListPage = () => {
