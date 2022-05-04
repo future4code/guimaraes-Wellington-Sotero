@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
@@ -11,7 +11,7 @@ export default function ButtonAppBar(props) {
 
                 <Button variant="contained">Personagens</Button>;
 
-                <Typography variant="h6" component="div" sx={{ flex}}
+                <Typography variant="h6" component="div" sx={{ flex }}
 
             </StyledToolBar>
         </AppBar>
