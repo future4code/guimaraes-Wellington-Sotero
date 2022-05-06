@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import CharacterDetail from './CharacterDatailPage/CharacterDetailPage';
+import CharacterDetail from './CharacterDetailPage/CharacterDetailPage';
 import CharacterList from './CharacterListPage/CharacterListPage';
 
 const Router = () => {

@@ -36,18 +36,17 @@ const CharacterListPage = () => {
         
 
     })
-
+    
     return (
+        
         <Container>
             <h2>Lista de Personagens</h2>
-            {characterCards}
+           <button> </button>
+               {characterCards}
         </Container>
-    )
-
-    
-
         
-    
-}
+        )
 
-export default CharacterListPage;
+    }
+    
+export default CharacterListPage
