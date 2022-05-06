@@ -31,7 +31,7 @@ const CharacterListPage = () => {
 
     const characterCards = characterList.map((character, i) => {
         return <div>
-            <p key={i}>{character.name}</p>
+           <button> <p>{character.name}</p> </button>
         </div>
         
 
@@ -41,8 +41,9 @@ const CharacterListPage = () => {
         
         <Container>
             <h2>Lista de Personagens</h2>
-           <button> </button>
+           
                {characterCards}
+            
         </Container>
         
         )
