@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from 'axios';
 import { BASE_URL } from '../constants/urls';
 import { CharacterCard } from './style';
-import Fundo from '../assets/fundo starwars.jpg';
+import Fundo from '../assets/fundostarwars.jpg';
 import styled from "styled-components";
 
 
