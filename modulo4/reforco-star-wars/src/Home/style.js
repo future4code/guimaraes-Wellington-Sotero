@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import Fundo from '../assets/fundostarwars.jpg'
-/* import BackgroundImage from '../../assets/Images/home.jpg' */
 
 export const MainContainer = styled.div`
 background-image: url(${Fundo});
@@ -23,9 +22,9 @@ padding: 500px;
 margin: 20px;
 `
 export const Buttons = styled.button`
-background-color: #4E4B4B;
+background-color: rgba(130, 130, 130, 0.5);
 font-size: large;
-color: #F8E00F;
+color: white;
 border-radius: 8px;
 height: 50px;
 width: 200px;

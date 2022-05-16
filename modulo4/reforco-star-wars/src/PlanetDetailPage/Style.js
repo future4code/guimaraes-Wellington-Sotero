@@ -12,9 +12,9 @@ export const ButtonHome = styled.button`
     display: flex;
     flex-direction: row;
     height: 40px;
-    background-color: #4E4B4B;
+    background-color: rgba(130, 130, 130, 0.5);
     font-size: large;
-    color: #F8E00F;
+    color: white;
     padding: 30px;
     align-items: center;
     margin: 50px;
@@ -26,7 +26,7 @@ export const CardContainer = styled.div`
     width: 300px;
     height: 300px;
     height: 250px;
-    background-color: #4E4B4B;
+    background-color: rgba(130, 130, 130, 0.5);
     border-radius: 8px;
     padding: 20px;
     margin: 200px;
