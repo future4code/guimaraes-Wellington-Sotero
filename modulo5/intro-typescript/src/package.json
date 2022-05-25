@@ -8,7 +8,12 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && node ./build/index.js"
+    "start": "tsc && node ./src/index.js",
+    "exer1": "tsc && node ./src/index.js",
+    "exer2": "tsc && node ./src/index.js",
+    "exer3": "tsc && node ./src/index.js",
+    "exer4": "tsc && node ./src/index.js",
+    "exer5": "tsc && node ./src/index.js"
   },
   "keywords": [],
   "author": "",
