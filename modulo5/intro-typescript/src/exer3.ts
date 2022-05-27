@@ -1,8 +1,8 @@
-function somar(num1:number, num2:number) :number {
 
-    const soma :number = num1 + num2
+function checaAnoBissexto(ano :number) {
+    const cond1 = ano % 400 === 0
+    const cond2 = (ano % 4 === 0) && (ano % 100 !== 0)
+    return cond1 || cond2
+ }
 
-    return soma
-}
-
-console.log(somar(1,2))
+ console.log(checaAnoBissexto(2004))
