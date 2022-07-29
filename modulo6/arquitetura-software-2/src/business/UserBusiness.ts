@@ -1,31 +1,30 @@
-import { UserDatabase } from "../data/UserDatabase";
-
+import { UserDatabase } from "../data/UserDatabase"
+import { v4 as generateId } from 'uuid'
 
 export class UserBusiness {
-public createUser = async (input: any) => {
-   try {
-     const { name, nickname, email, password } = input;
- 
-     if (!name || !nickname || !email || !password) {
-       throw new Error(
-         'Preencha os campos "name","nickname", "email" e "password"'
-       );
-     }
- 
-     const id: string = Date.now().toString()
- 
-     const userDatabase = new UserDatabase();
-     await userDatabase.insertUser({
-       id,
-       name,
-       nickname,
-       email,
-       password,
-     });
-   } catch (error: any) {
-     throw new Error(error.message);
-   }
- };
+  async create({ email, name, password }: any): Promise<void> {
+    if (!email || !name || !password) {
+      throw new Error("Dados inválidos (email, name, password)")
+    }
+
+    const id = generateId()
+
+    const userDatabase = new UserDatabase()
+    await userDatabase.create({
+      id,
+      name,
+      email,
+      password
+    })
+  }
+
+  async getAllUsers(): Promise<any> {
+    try {
+
+      return await new UserDatabase().getAllUsers()
+    } catch (error: any) {
+      throw new Error('error.message')
+    }
+  }
 
 }
-

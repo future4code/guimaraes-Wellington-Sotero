@@ -1,20 +1,20 @@
-POST http://localhost:3003/user 
-Content-Type: application/json 
+POST http://localhost:3003/user/create
+Content-Type: application/json
 
 {
-    "name": "Rodrigo",
-    "nickname": "Rodrigo",
-    "email": "rodrigo@email.com",
-    "password": "1223145153"
+    "name": "Well",
+    "email": "well@well.com",
+    "password": "23432535"
 }
 
 ###
-POST http://localhost:3003/task/create 
-Content-Type: application/json 
+POST http://localhost:3003/create
+Content-Type: application/json
 
 {
-    "title": "aula arquitetura II",
-    "description": "como usar o express.router()",
-    "deadline": "26/05/2022",
-    "authorId": "1b146f8d-7709-4a84-8c3c-7f980e8d4da3" // inserir outro ID
+    "title": "Pantanal",
+    "description": "Após virar onça por causa de tanta raiva, Juma foge novamente, Juventino pousa no escuro da fazenda com o retrato do Velho do Rio.",
+    "duration_in_minutes": "39min",
+    "year_of_release": "2022/07/28"
+
 }
