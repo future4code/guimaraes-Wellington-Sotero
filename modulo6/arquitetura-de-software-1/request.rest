@@ -1,0 +1,36 @@
+POST http://localhost:3003/User
+Content-Type: application/json
+
+
+{
+    "name": "Wellington",
+    "nickname": "Wellington em aula",
+    "email": "well.sotero@outlook.com",
+    "password": "123456"
+}
+
+###
+
+POST http://localhost:3003/User
+Content-Type: application/json
+
+
+{
+    "name": "Gleika",
+    "nickname": "Gleika esposa de Well",
+    "email": "gleikamarques@hotmail.com.br",
+    "password": "1234567"
+}
+
+###
+
+POST http://localhost:3003/User
+Content-Type: application/json
+
+
+{
+    "name": "João",
+    "nickname": "João simbólico",
+    "email": "joao@gmail.com",
+    "password": "12345678"
+}
