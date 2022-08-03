@@ -1,6 +1,6 @@
 import { MovieDatabase } from "../data/MovieDatabase";
 import { v4 as generateId } from "uuid";
-import { Movie } from "../src/Movie";
+import { Movie } from "../Classes/Movie";
 
 export class MovieBusiness {
   async create({

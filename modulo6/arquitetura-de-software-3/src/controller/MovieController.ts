@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { MovieBusiness } from "../business/MovieBUsiness";
+import { MovieBusiness } from "../business/MovieBusiness";
 import { Movie } from "../Classes/Movie";
 
 export class MovieController {

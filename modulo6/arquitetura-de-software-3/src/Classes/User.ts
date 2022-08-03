@@ -1,4 +1,4 @@
-export class Movie {
+export class User {
     constructor(
       private id: string,
       private title: string,

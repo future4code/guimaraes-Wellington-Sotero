@@ -1,6 +1,6 @@
 import { app } from "./app";
-import { userRouter } from "./routes/userRouter";
-import { movieRouter } from "./routes/movieRouter";
+import { userRouter } from "../src/routes/userRouter";
+import { movieRouter } from "../src/routes/movieRouter";
 
 app.use("/user", userRouter);
 
