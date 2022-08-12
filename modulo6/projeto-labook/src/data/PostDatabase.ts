@@ -1,4 +1,4 @@
-import { BaseDatabase } from "./BaseDatabase";
+import { BaseDatabase } from "../Data/BaseDatabase";
 import { TypePost, Post } from "../model/Post";
 import moment from "moment";
 

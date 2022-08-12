@@ -1,8 +1,8 @@
 import { Request, Response } from "express";
 import { Authenticator } from "../services/Authenticator";
-import { FeedDatabase } from "../data/FeedDatabase";
-import { BaseDatabase } from "../data/BaseDatabase";
-import { PostDatabase } from "../data/PostDatabase";
+import { FeedDatabase } from "../Data/FeedDatabase";
+import { BaseDatabase } from "../Data/BaseDatabase";
+import { PostDatabase } from "../Data/PostDatabase";
 import { IdGenerator } from "../services/IdGenerator";
 import moment from "moment";
 

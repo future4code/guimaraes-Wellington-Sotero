@@ -1,4 +1,4 @@
-import { BaseDatabase } from "../data/BaseDatabase";
+import { BaseDatabase } from "./BaseDatabase";
 
 export class UsersRelationDatabase extends BaseDatabase {
     private static TABLE_NAME = "users_relation";

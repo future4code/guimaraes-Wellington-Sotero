@@ -1,6 +1,6 @@
-import { BaseDatabase } from "../data/BaseDatabase";
-import { UsersRelationDatabase } from "../data/UsersRelationDatabase";
-import { UserDatabase } from "../data/UserDatabase";
+import { BaseDatabase } from "../Data/BaseDatabase";
+import { UsersRelationDatabase } from "../Data/UsersRelationDatabase";
+import { UserDatabase } from "../Data/UserDatabase";
 import { Authenticator } from "../services/Authenticator";
 import { Request, Response } from "express";
 

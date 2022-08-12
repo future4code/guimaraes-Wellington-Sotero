@@ -1,4 +1,4 @@
-import { BaseDatabase } from "./BaseDatabase";
+import { BaseDatabase } from "../Data/BaseDatabase";
 import { Post } from "../model/Post";
 
 export class FeedDatabase extends BaseDatabase {
