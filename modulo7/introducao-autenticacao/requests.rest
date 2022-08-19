@@ -1,0 +1,11 @@
+
+
+POST http://localhost:3003/user/signup
+Content-Type: application/json
+
+{
+   "name": "Wellington Sotero", 
+   "nickname": "Well Sotero", 
+   "email": "well.sotero@labenu.com.br" ,
+   "password": "guimaraes"
+}
