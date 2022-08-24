@@ -1,0 +1,20 @@
+POST http://localhost:3003/User/create/
+Content-Type: application/json
+
+{
+    "name": "Well Sotero",
+    "email": "well.sotero@email.com",
+    "password": "abcdefg"
+}
+
+######
+
+POST http://localhost:3003/User/create/
+Content-Type: application/json
+
+{
+    "photo": "photo 1",
+    "descroption": "foto da praia",
+    "type: ": "paisagem",
+    "authorId": "0e1fdee1-1418-4f3d-9186-69d89ef4a9"
+}
