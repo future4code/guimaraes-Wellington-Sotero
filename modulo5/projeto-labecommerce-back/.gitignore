@@ -1,0 +1,4 @@
+nodes_modules
+.env
+build
+package-lok.json
