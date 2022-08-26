@@ -1,12 +1,12 @@
 import knex from 'knex'
-import Knex from 'knex'
 
-export abstract class BaseDatabase {
+
+export abstract class UserDatabase {
     private static CONNECTION_KNEX: Knex | null = null
 
     protected setConnection() {
-        if (BaseDatabase.CONNECTION_KNEX === null) {
-            BaseDatabase.CONNECTION_KNEX = knex({
+        if (UserDatabase.CONNECTION_KNEX === null) {
+            UserDatabase.CONNECTION_KNEX = knex({
                 client: "mysql",
                 connection: {
                     host: process.env.DB_HOST,
@@ -17,13 +17,13 @@ export abstract class BaseDatabase {
                 }
             })
         }
-        return BaseDatabase.CONNECTION_KNEX
+        return UserDatabase.CONNECTION_KNEX
     }
 
     public static async desconnectDB() {
-        if (BaseDatabase.CONNECTION_KNEX !== null) {
-           await BaseDatabase.CONNECTION_KNEX.destroy()
-            BaseDatabase.CONNECTION_KNEX = null
+        if (UserDatabase.CONNECTION_KNEX !== null) {
+           await UserDatabase.CONNECTION_KNEX.destroy()
+           UserDatabase.CONNECTION_KNEX = null
         }
     }
 
