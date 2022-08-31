@@ -1,0 +1,17 @@
+Content-Type: application/json
+
+{
+  "name":"Wellington Sotero",
+  "email":"well.sotero@labenu.com.br",
+  "password":"123456"
+}
+
+
+Content-Type: application/json
+
+{
+  "name":"José Leôncio",
+  "email":"joseleoncio@jl.com.br",
+  "password":"123456"
+}
+###
