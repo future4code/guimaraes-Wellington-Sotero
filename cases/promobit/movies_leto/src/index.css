@@ -1,17 +1,17 @@
 * {
-  font-family: Helvetica;
+  font-family: Trebuchet MS;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: #000;
+  background-color: white;
 }
 
 a {
   text-decoration: none;
-  color: #f7d354;
+  color: #c4ba9a;
   transition: 0.5s;
 }
 

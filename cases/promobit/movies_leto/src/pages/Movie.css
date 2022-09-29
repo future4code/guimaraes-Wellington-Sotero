@@ -48,6 +48,10 @@
     align-items: center;
     gap: 0.5rem;
   }
+
+  .description {
+    padding-bottom: 5rem;
+  }
   
   .description p {
     line-height: 1.4rem;
