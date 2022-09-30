@@ -16,9 +16,9 @@ const Home = () => {
   };
 
   useEffect(() => {
-    const topRatedUrl = `${moviesURL}top_rated?${apiKey}`;
+    const topRatedUrl = `${moviesURL}top_rated?api_key=${apiKey}`;
     console.log(topRatedUrl);
-    getTopRatedMovies(topRatedUrl);
+    getTopRatedMovies("https://api.themoviedb.org/3/movie/top_rated?api_key=8a20be61bc93b8911d12ae55278914b6"); 
   }, []);
 
   console.log(topMovies);
